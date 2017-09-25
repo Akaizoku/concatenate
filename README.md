@@ -6,14 +6,19 @@ This small VBA application aims to provide an easy to use interface to concatena
 
   1. Create a new macro-enabled Microsoft Excel Worksheet (.xlsm).
   2. Create three modules and paste the corresponding file contents:
-    - procedures
-    - functions
-    - license
+
+      - procedures
+      - functions
+      - license
+
   3. Add a call to the concatenate procedure at application startup by adding the following lines in ThisWorkbook Microsoft Excel Object:
-    ````vba
-      Private Sub Workbook_Open()
-        Procedures.consolidate
-      End Sub
-    ````
+
+
+      ```vba
+        Private Sub Workbook_Open()
+          Procedures.consolidate
+        End Sub
+      ```
+      
 ## License
 This project is licensed under the MIT License.
